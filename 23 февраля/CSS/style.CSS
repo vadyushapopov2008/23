@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {}
+
+a {}
+
+.wrapper {
+
+    margin: 0;
+}
+
+.header {
+    background-color: cyan;
+
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 50px;
+}
+
+.nav__item {
+    list-style: none;
+
+}
+
+.nav__link {
+    text-decoration: none;
+    color: crimson;
+}
+
+.btn {
+    background-image: url(../pic/Flag.jpg);
+    background-size: cover;
+    border: none;
+    color: aquamarine;
+}
+
+.content {
+    display: flex;
+}
+
+.date {
+
+    background-color: darkslateblue;
+}
+
+.img-wrap {
+    width: 300px;
+    object-fit: contain;
+}
+
+.img {
+    width: 100%;
+}
+
+.br {}
+
+.subtitle {
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Unbounded', cursive;
+    background-image: url(../pic/Russia.jpg);
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.text {
+    font-family: ;
+}
+
+.congratulation {
+    background-image: url(../pic/23.jpg);
+    background-size: cover;
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+    background-image: url(../pic/beluga.jpg);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.text {
+    color: aliceblue
+}
