@@ -4,6 +4,11 @@
 
 html,
 body {
+    min-width: 100%;
+
+}
+
+body {
     margin: 0;
     padding: 0;
 }
@@ -14,13 +19,13 @@ li {}
 a {}
 
 .wrapper {
-
     margin: 0;
+    width: 100%;
 }
 
 .header {
     background-color: cyan;
-
+    position: sticky;
 }
 
 .nav {}
@@ -28,6 +33,7 @@ a {}
 .nav__list {
     display: flex;
     column-gap: 50px;
+    margin: 0;
 }
 
 .nav__item {
@@ -49,10 +55,12 @@ a {}
 
 .content {
     display: flex;
+    width: 100%;
+    height: 100%;
 }
 
 .date {
-
+    display: block;
     background-color: darkslateblue;
 }
 
@@ -82,8 +90,10 @@ a {}
 }
 
 .congratulation {
+    display: block;
     background-image: url(../pic/23.jpg);
     background-size: cover;
+    width: 100%;
 }
 
 .title {
